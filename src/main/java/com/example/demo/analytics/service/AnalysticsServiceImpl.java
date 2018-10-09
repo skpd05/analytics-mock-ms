@@ -136,7 +136,7 @@ public class AnalysticsServiceImpl implements AnalyticsService {
 				 Classification cardClasiffication = null;
 				 String catType = catMap1.get(transaction.getMerchantid());
 				 if(catType == null ){
-					 catType = "Others/NotListed";
+					 catType = "Others/Not Listed";
 				 }
 				 double amount =  Double.parseDouble(transaction.getTransactionamount());
 				 String trType =  transaction.getTranscationtype();
